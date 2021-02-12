@@ -1,19 +1,16 @@
 {
     "webcredentials": {
         "apps": [
-            "H3B2T87NY7.com.iab.test",
-            "4F7SW76LL6.com.di.AutoPassword-iOS12.Dev"
+            "H3B2T87NY7.com.iab.test"
         ]
     },
     "applinks": {
         "apps": [
-            "4F7SW76LL6.com.di.AutoPassword-iOS12",
-            "4F7SW76LL6.com.di.AutoPassword-iOS12.QA",
-            "4F7SW76LL6.com.di.AutoPassword-iOS12.Dev"
+            "H3B2T87NY7.com.iab.test"
         ],
         "details": [
             {
-                "appID": "4F7SW76LL6.com.di.AutoPassword-iOS12",
+                "appID": "H3B2T87NY7.com.iab.test",
                 "paths": [
                     "*"
                 ]
