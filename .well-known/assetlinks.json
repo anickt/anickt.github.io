@@ -1,0 +1,17 @@
+[{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://a-n-i-k-e-t.github.io"
+  }
+ },
+ {
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.iab.test",
+    "sha256_cert_fingerprints": [
+      "C4:88:71:24:C0:A0:7A:3E:4F:2D:99:D4:0A:6B:D1:10:73:E3:98:DC:9F:2C:04:74:AA:F4:0E:73:A0:05:BA:A4"
+    ]
+  }
+ }]
