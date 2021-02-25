@@ -1,9 +1,9 @@
 {
-    "webcredentials": {
+ //   "webcredentials": {
         "apps": [
             "H3B2T87NY7.com.iab.test"
         ]
-    },
+  // },
     "applinks": {
         "apps": [
             "H3B2T87NY7.com.iab.test"
