@@ -2,7 +2,7 @@
   "relation": ["delegate_permission/common.get_login_creds"],
   "target": {
     "namespace": "web",
-    "site": "https://a-n-i-k-e-t.github.io"
+    "site": "https://anickt.github.io"
   }
  },
  {
