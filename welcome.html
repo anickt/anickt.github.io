@@ -2,7 +2,7 @@
 
 <html> <body>
 
-<input type="text" id="inp" value="Try to paste something in here" size="40">
+<input type="text" id="inp" value="" size="40">
 
 <button id="btn">send </button>
 
@@ -10,25 +10,13 @@
  <script>
 
 document.getElementById("btn").disabled = true; 
-//document.getElementById("btn2").addEventListener("click", myFunction);
 const test= document.getElementById("inp")
 test.addEventListener("paste",  (event) => {
-console.log("event.clipboardData===",event.clipboardData);
-console.log("event.clipboardData===",event.clipboardData.getData('Text'));
-console.log("window.clipboardData====",window.clipboardData);
-    let paste = (event.clipboardData || window.clipboardData).getData('Text');
-    document.getElementById("btn").disabled = false;
-    document.getElementById("demo2").innerHTML= paste
-    alert(paste);
-    //event.preventDefault()
+    setTimeout(()=>{
+      document.getElementById("btn").disabled = false;
+      document.getElementById("demo2").innerHTML= test.value
+    },0)
     });
 
-function myFunction() { 
-document.getElementById("btn").disabled = false;
-
-document.getElementById("demo2").innerHTML = "hhhh"
-
-
-}
 </script>
 </body> </html>
